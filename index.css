@@ -1,0 +1,83 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-container{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(33, 7, 112, 0.993);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.score-card{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 125px;
+    width: 75px;
+}
+
+.score-head{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.score{
+    font-size: 2rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                   
+    background-color: black;
+    color: rgba(206, 75, 48, 0.984);
+    display: flex;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.score-text{
+    margin: auto;
+}
+
+.score-increment{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.increment-button{
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2.5px;
+    cursor:pointer
+}
+
+.button{
+    height: 50px;
+    margin: auto 0;  
+    border: none; 
+    cursor: pointer;
+}
+
+.new-game-btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: rgb(41 179 131);
+    border-radius: 5px;
+    border: solid 2px skyblue;
+    color: darkgreen;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
